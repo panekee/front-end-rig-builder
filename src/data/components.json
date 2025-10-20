@@ -1,0 +1,238 @@
+{
+  "components": {
+    "CPU": [
+      {
+        "id": "cpu-1",
+        "name": "Intel Core i5-13400F",
+        "price": 200,
+        "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "cpu-2",
+        "name": "AMD Ryzen 5 5600X",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "cpu-3",
+        "name": "Intel Core i7-13700K",
+        "price": 380,
+        "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "cpu-4",
+        "name": "AMD Ryzen 7 5800X3D",
+        "price": 350,
+        "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "cpu-5",
+        "name": "Intel Core i9-13900K",
+        "price": 580,
+        "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400&h=400&fit=crop"
+      }
+    ],
+    "GPU": [
+      {
+        "id": "gpu-1",
+        "name": "NVIDIA RTX 3060",
+        "price": 320,
+        "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "gpu-2",
+        "name": "AMD RX 6700 XT",
+        "price": 380,
+        "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "gpu-3",
+        "name": "NVIDIA RTX 4070",
+        "price": 600,
+        "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "gpu-4",
+        "name": "AMD RX 7800 XT",
+        "price": 550,
+        "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "gpu-5",
+        "name": "NVIDIA RTX 4090",
+        "price": 1600,
+        "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&h=400&fit=crop"
+      }
+    ],
+    "Motherboard": [
+      {
+        "id": "mb-1",
+        "name": "MSI B660M PRO",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "mb-2",
+        "name": "ASUS TUF B550",
+        "price": 140,
+        "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "mb-3",
+        "name": "Gigabyte Z690 AORUS",
+        "price": 250,
+        "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=400&h=400&fit=crop"
+      }
+    ],
+    "RAM": [
+      {
+        "id": "ram-1",
+        "name": "Corsair 16GB DDR4 3200MHz",
+        "price": 60,
+        "image": "https://images.unsplash.com/photo-1541348263662-e068662d82af?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "ram-2",
+        "name": "G.Skill 32GB DDR4 3600MHz",
+        "price": 110,
+        "image": "https://images.unsplash.com/photo-1541348263662-e068662d82af?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "ram-3",
+        "name": "Corsair 32GB DDR5 5600MHz",
+        "price": 180,
+        "image": "https://images.unsplash.com/photo-1541348263662-e068662d82af?w=400&h=400&fit=crop"
+      }
+    ],
+    "Storage": [
+      {
+        "id": "ssd-1",
+        "name": "Samsung 970 EVO 500GB NVMe",
+        "price": 70,
+        "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "ssd-2",
+        "name": "WD Black SN850 1TB NVMe",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "ssd-3",
+        "name": "Samsung 980 PRO 2TB NVMe",
+        "price": 220,
+        "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400&h=400&fit=crop"
+      }
+    ],
+    "PSU": [
+      {
+        "id": "psu-1",
+        "name": "Corsair RM650x 650W 80+ Gold",
+        "price": 90,
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "psu-2",
+        "name": "EVGA SuperNOVA 750W 80+ Gold",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "psu-3",
+        "name": "Seasonic PRIME 850W 80+ Titanium",
+        "price": 200,
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=400&fit=crop"
+      }
+    ],
+    "Case": [
+      {
+        "id": "case-1",
+        "name": "NZXT H510",
+        "price": 80,
+        "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "case-2",
+        "name": "Corsair 4000D Airflow",
+        "price": 100,
+        "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "case-3",
+        "name": "Lian Li O11 Dynamic",
+        "price": 150,
+        "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=400&h=400&fit=crop"
+      }
+    ],
+    "Cooling": [
+      {
+        "id": "cool-1",
+        "name": "Cooler Master Hyper 212",
+        "price": 40,
+        "image": "https://images.unsplash.com/photo-1624705002806-5d72df19c514?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "cool-2",
+        "name": "Noctua NH-D15",
+        "price": 100,
+        "image": "https://images.unsplash.com/photo-1624705002806-5d72df19c514?w=400&h=400&fit=crop"
+      },
+      {
+        "id": "cool-3",
+        "name": "NZXT Kraken X63 280mm AIO",
+        "price": 150,
+        "image": "https://images.unsplash.com/photo-1624705002806-5d72df19c514?w=400&h=400&fit=crop"
+      }
+    ]
+  },
+  "premades": [
+    {
+      "id": "basic",
+      "name": "PC Básico",
+      "level": "Básico",
+      "image": "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=800&h=600&fit=crop",
+      "components": {
+        "CPU": "cpu-2",
+        "GPU": "gpu-1",
+        "Motherboard": "mb-2",
+        "RAM": "ram-1",
+        "Storage": "ssd-1",
+        "PSU": "psu-1",
+        "Case": "case-1",
+        "Cooling": "cool-1"
+      }
+    },
+    {
+      "id": "intermediate",
+      "name": "PC Intermedio",
+      "level": "Intermedio",
+      "image": "https://images.unsplash.com/photo-1591238371732-a621f6f7b90b?w=800&h=600&fit=crop",
+      "components": {
+        "CPU": "cpu-3",
+        "GPU": "gpu-3",
+        "Motherboard": "mb-3",
+        "RAM": "ram-2",
+        "Storage": "ssd-2",
+        "PSU": "psu-2",
+        "Case": "case-2",
+        "Cooling": "cool-2"
+      }
+    },
+    {
+      "id": "high",
+      "name": "PC Alto Rendimiento",
+      "level": "Alto Rendimiento",
+      "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=800&h=600&fit=crop",
+      "components": {
+        "CPU": "cpu-5",
+        "GPU": "gpu-5",
+        "Motherboard": "mb-3",
+        "RAM": "ram-3",
+        "Storage": "ssd-3",
+        "PSU": "psu-3",
+        "Case": "case-3",
+        "Cooling": "cool-3"
+      }
+    }
+  ]
+}
