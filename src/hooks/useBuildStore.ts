@@ -33,7 +33,12 @@ export const useBuildStore = () => {
   }, [build]);
 
   const addComponent = (category: ComponentCategory, component: Component) => {
-    setBuild(prev => ({ ...prev, [category]: component }));
+    console.log('Adding component:', { category, component });
+    setBuild(prev => {
+      const newBuild = { ...prev, [category]: component };
+      console.log('New build state:', newBuild);
+      return newBuild;
+    });
   };
 
   const removeComponent = (category: ComponentCategory) => {
