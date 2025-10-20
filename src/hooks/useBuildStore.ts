@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { toast } from 'sonner';
 
 export type ComponentCategory = 'CPU' | 'GPU' | 'Motherboard' | 'RAM' | 'Storage' | 'PSU' | 'Case' | 'Cooling';
 
@@ -33,12 +34,20 @@ export const useBuildStore = () => {
   }, [build]);
 
   const addComponent = (category: ComponentCategory, component: Component) => {
-    console.log('Adding component:', { category, component });
-    setBuild(prev => {
-      const newBuild = { ...prev, [category]: component };
-      console.log('New build state:', newBuild);
-      return newBuild;
-    });
+    try {
+      setBuild(prev => {
+        const newBuild = { ...prev, [category]: component };
+        return newBuild;
+      });
+      toast.success(`${component.name} agregado`, {
+        description: `Componente agregado a la categoría ${category}`
+      });
+    } catch (error) {
+      console.error('Error adding component:', error);
+      toast.error('Error al agregar componente', {
+        description: 'Por favor, refresca la página e intenta nuevamente'
+      });
+    }
   };
 
   const removeComponent = (category: ComponentCategory) => {

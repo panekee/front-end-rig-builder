@@ -32,18 +32,14 @@ export const ComponentSelector = () => {
         {categories.map((category) => (
           <TabsContent key={category} value={category}>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {getComponents(category).map((component) => {
-                const isSelected = build[category]?.id === component.id;
-                console.log(`Component ${component.id} selected:`, isSelected, 'Current build:', build[category]);
-                return (
-                  <ComponentCard
-                    key={component.id}
-                    component={component}
-                    isSelected={isSelected}
-                    onSelect={() => addComponent(category, component)}
-                  />
-                );
-              })}
+              {getComponents(category).map((component) => (
+                <ComponentCard
+                  key={component.id}
+                  component={component}
+                  isSelected={build[category]?.id === component.id}
+                  onSelect={() => addComponent(category, component)}
+                />
+              ))}
             </div>
           </TabsContent>
         ))}
